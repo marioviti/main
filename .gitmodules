@@ -1,0 +1,6 @@
+[submodule "deepVision"]
+	path = deepVision
+	url = https://github.com/marioviti/deepVision.git
+[submodule "dataCleaner"]
+	path = dataCleaner
+	url = https://github.com/marioviti/dataCleaner.git
