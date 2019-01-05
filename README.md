@@ -12,9 +12,13 @@ https://tldrlegal.com/license/apache-license-1.0-(apache-1.0)
 
 https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3)
 
+**SHORT**: use MIT/Apache for whatever and GPL for work you intend to protect.
+
 ### Submodules
 
 Licenses do not extends to submodules, this also raises a controversy about what redistribution can be meant when using pointers (wich a packaging or submodule system essentially are), pointing to a software released under GPL does not implies that the pointing software is redistributing it therefore the GPL license propagation does not apply.
+
+**SHORT**: Submodules can have a different license from the module.
 
 https://softwareengineering.stackexchange.com/questions/240633/is-licensing-an-issue-for-git-submodules
 
@@ -22,6 +26,14 @@ https://softwareengineering.stackexchange.com/questions/240633/is-licensing-an-i
 
 I tend to have libraries I developed in separate repositories, therefore submodules are the most natural way to include them in an projects/application.
 
+https://gist.github.com/gitaarik/8735255
+
+https://git-scm.com/book/en/v2/Git-Tools-Submodules
+
+**SHORT**: Submodules ~ Libs
+
 ## Branches
 
 Submodules can be used as libraries, to this end I use branches to switch between projects/applications in the main repository that makes use of these in different ways.
+
+**SHORT**: Branches ~ Projects
